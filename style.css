@@ -1,0 +1,159 @@
+/*TODO: Add a background color or image to your website*/
+body {
+  background-color: #d1e0e0;
+  color: #293d3d;
+}
+
+* {
+  margin: 0px;
+  font-family: "Baloo Tamma 2", cursive;
+}
+
+/*TODO: Create a new style rule by the class attribute and style the header section(s) of your website. */
+h1 {
+  text-align: center;
+  font-size: 50px;
+  color: #141f1f;
+}
+
+#h {
+  font-family: "Permanent Marker", cursive;
+}
+
+/*TODO: Style the Nav Bar by selecting the u1, li, and li a elements*/
+
+ul {
+  background-color: #527a7a;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+li {
+  display: inline;
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  margin: 30px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+  text-align: center;
+  font-size: 1.3em;
+}
+
+li:hover {
+  background-color: #3d5c5c;
+}
+
+/*TODO: Add styling rules for the text and images on your website.*/
+
+.av {
+  text-align: center;
+}
+
+#avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+}
+
+.animals {
+  background-color: #b3cccc;
+  padding: 15px;
+  text-align: center;
+}
+.animalpic {
+  border: 2px solid #1e2f2f;
+}
+
+.welcome {
+  font-size: 25px;
+  text-align: center;
+}
+
+#draw-a {
+  float: left;
+  max-width: 500px;
+  margin: auto;
+  padding-left: 7%;
+}
+#draw-b {
+  float: right;
+  max-width: 500px;
+  margin: auto;
+  padding-right: 7%;
+}
+
+.draw {
+  border: solid 5px #3d5c5c;
+  width: 500px;
+  margin-bottom: 80px;
+}
+
+.port-item {
+  text-align: center;
+}
+
+hr {
+  border: 5px solid #669999;
+  border-radius: 5px;
+  width: 90%;
+  margin-left: 5%;
+  margin-left: 5%;
+}
+
+#go {
+  color: #293d3d;
+}
+
+h4 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.drawings {
+  background-color: #b3cccc;
+}
+
+/*TODO: Use the * selector to reset the margin and padding to 0px*/
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/*TODO: Create a Flexbox to create a responsive layout. Use the property display: flex;*/
+
+.videos,
+.songs {
+  background-color: #b3cccc;
+  margin: 2px;
+  padding: 4px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+#v1,
+#v2,
+#v3,
+#v4,
+#v5,
+#v6 {
+  max-width: 550px;
+  border: 2px solid #1e2f2f;
+  margin: 6px;
+  padding: 1px;
+  text-align: center;
+}
+
+.m {
+  border: 2px solid #1e2f2f;
+  margin: 6px;
+  padding: 1px;
+  text-align: center;
+}
